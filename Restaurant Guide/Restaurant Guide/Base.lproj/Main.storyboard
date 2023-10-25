@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="opD-FO-0Dd">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contact-->
+        <scene sceneID="IOR-Xl-NHT">
+            <objects>
+                <viewController id="7KS-HX-3Zs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vhb-37-Ige">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i89-Jl-XhI">
+                                <rect key="frame" x="166" y="415.66666666666669" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v2y-V1-ska"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i89-Jl-XhI" firstAttribute="centerY" secondItem="Vhb-37-Ige" secondAttribute="centerY" id="EbR-of-N3W"/>
+                            <constraint firstItem="i89-Jl-XhI" firstAttribute="centerX" secondItem="Vhb-37-Ige" secondAttribute="centerX" id="Vl1-Yb-Bxe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" image="contact" id="aLF-Oy-jHi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qo1-aa-Eoa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1715" y="396"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="44i-PD-R6I">
+            <objects>
+                <viewController id="Ovd-0X-BkI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XoG-Ya-7Jh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVf-jH-Ngq">
+                                <rect key="frame" x="175" y="415.66666666666669" width="43" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uEm-I9-kWU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bVf-jH-Ngq" firstAttribute="centerY" secondItem="XoG-Ya-7Jh" secondAttribute="centerY" id="BKo-cp-FaW"/>
+                            <constraint firstItem="bVf-jH-Ngq" firstAttribute="centerX" secondItem="XoG-Ya-7Jh" secondAttribute="centerX" id="nBC-bv-UGN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Menu" image="cutlery" id="LRc-hw-4G3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ea-kQ-qkx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-785.49618320610682" y="-80.281690140845072"/>
+        </scene>
+        <!--About us-->
+        <scene sceneID="hDy-vl-EVp">
+            <objects>
+                <viewController id="A1s-UP-W84" customClass="MainViewController" customModule="Restaurant_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Hm-qb-Dmc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="6FC-3y-y6U">
+                                <rect key="frame" x="16" y="74.000000000000028" width="361" height="447.66666666666674"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Il Pagliaccio Roma " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4I-cr-tqq">
+                                        <rect key="frame" x="0.0" y="0.0" width="262.33333333333331" height="41"/>
+                                        <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interior" translatesAutoresizingMaskIntoConstraints="NO" id="Qpk-Re-Vln">
+                                        <rect key="frame" x="0.0" y="92" width="265" height="235"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="265" id="4pv-q5-zUB"/>
+                                            <constraint firstAttribute="height" constant="235" id="P42-ED-bca"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High-end restaurant serving creative Mediterranean dishes in a chic, bare-brick dining room." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dv5-0k-zGb">
+                                        <rect key="frame" x="0.0" y="378" width="321" height="69.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jcM-PM-Tvm"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6FC-3y-y6U" firstAttribute="top" secondItem="jcM-PM-Tvm" secondAttribute="top" constant="15" id="3Bk-1p-3M5"/>
+                            <constraint firstItem="6FC-3y-y6U" firstAttribute="leading" secondItem="jcM-PM-Tvm" secondAttribute="leading" constant="16" id="5YE-ma-v6G"/>
+                            <constraint firstAttribute="trailing" secondItem="6FC-3y-y6U" secondAttribute="trailing" constant="16" id="cNj-7H-YKh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About us" image="restaurant" id="ksC-iI-4Sg"/>
+                    <connections>
+                        <outlet property="imageView" destination="Qpk-Re-Vln" id="Jzg-Yj-odj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAU-DV-NnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-785.49618320610682" y="-880.28169014084517"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="QM9-ab-yZc">
+            <objects>
+                <tabBarController id="opD-FO-0Dd" sceneMemberID="viewController">
+                    <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dUS-Ip-0Vu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.92647957801818848" green="0.65341293811798096" blue="0.78572207689285278" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance">
+                            <color key="selectionIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
+                    </tabBar>
+                    <connections>
+                        <segue destination="A1s-UP-W84" kind="relationship" relationship="viewControllers" id="6AJ-i7-2SK"/>
+                        <segue destination="Ovd-0X-BkI" kind="relationship" relationship="viewControllers" id="TbN-Dz-lXZ"/>
+                        <segue destination="7KS-HX-3Zs" kind="relationship" relationship="viewControllers" id="de1-dJ-ddO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="biJ-WA-FTp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1714" y="-396"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="contact" width="32" height="32"/>
+        <image name="cutlery" width="32" height="32"/>
+        <image name="interior" width="680" height="453.5"/>
+        <image name="restaurant" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
